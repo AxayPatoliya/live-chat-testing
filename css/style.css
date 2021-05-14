@@ -120,10 +120,14 @@ Chat Title
     }
     .message-box .message-submit {
         width: 28% !important;
-        height: 49% !important;
+        height: 50% !important;
+        font-size: 20px !important;
     }
     .messages .message .new {
         font-size: 20px !important;
+    }
+    .msgText {
+        font-size: 22px !important;
     }
 }
 
