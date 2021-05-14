@@ -126,7 +126,9 @@ Chat Title
     .messages .message .new {
         font-size: 20px !important;
     }
-    .msgText,
+    .msgText {
+        font-size: 30px !important;
+    }
     .checkToDel {
         font-size: 30px !important;
     }
