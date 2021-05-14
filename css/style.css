@@ -130,6 +130,10 @@ Chat Title
     .checkToDel {
         font-size: 30px !important;
     }
+    .message-input {
+        font-size: 30px !important;
+        padding-bottom: 6% !important;
+    }
 }
 
 .chat-title h2 {
