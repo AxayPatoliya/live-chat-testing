@@ -102,6 +102,28 @@ Chat Title
     padding: 0;
 }
 
+
+/* responsive design added */
+
+@media screen and (max-width: 1024px) {
+    .chat-title h1 {
+        font-size: 34px !important;
+        margin-left: 7% !important;
+    }
+    .chat-title h2 {
+        font-size: 20px !important;
+        margin-left: 7% !important;
+    }
+    .chat-title .avatar {
+        width: 9% !important;
+        height: 85% !important;
+    }
+    .message-box {
+        width: 70% !important;
+        background: none !important;
+    }
+}
+
 .chat-title h2 {
     color: rgba(255, 255, 255, 0.5);
     font-size: 8px;
@@ -312,7 +334,7 @@ Message Box
     flex: 0 1 40px;
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
-    padding: 10px;
+    padding: 18px;
     position: relative;
 }
 
@@ -326,7 +348,7 @@ Message Box
     height: 17px;
     margin: 0;
     padding-right: 20px;
-    width: 265px;
+    width: 90%;
 }
 
 .message-box textarea:focus:-webkit-placeholder {
@@ -334,9 +356,11 @@ Message Box
 }
 
 .message-box .message-submit {
+    width: 10%;
+    height: 40%;
     position: absolute;
     z-index: 1;
-    top: 9px;
+    top: 14px;
     right: 10px;
     color: #fff;
     border: none;
