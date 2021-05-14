@@ -136,6 +136,9 @@ Chat Title
         font-size: 22px !important;
         padding-bottom: 10% !important;
     }
+    .message-box .message-input {
+        width: 72% !important;
+    }
 }
 
 .chat-title h2 {
