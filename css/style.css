@@ -132,7 +132,7 @@ Chat Title
     .checkToDel {
         font-size: 30px !important;
     }
-    .textareaRes {
+    #message {
         font-size: 22px !important;
         padding-bottom: 10% !important;
     }
