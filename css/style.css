@@ -122,9 +122,8 @@ Chat Title
         width: 28% !important;
         height: 49% !important;
     }
-    .messages .message.new {
-        height: 4% !important;
-        font-size: 12px !important;
+    .messages .message .new {
+        font-size: 20px !important;
     }
 }
 
