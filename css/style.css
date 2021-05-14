@@ -118,9 +118,9 @@ Chat Title
         width: 9% !important;
         height: 85% !important;
     }
-    .message-box {
-        width: 70% !important;
-        background: none !important;
+    .message-box .message-submit {
+        width: 28% !important;
+        height: 49% !important;
     }
 }
 
@@ -356,7 +356,7 @@ Message Box
 }
 
 .message-box .message-submit {
-    width: 10%;
+    width: 6%;
     height: 40%;
     position: absolute;
     z-index: 1;
