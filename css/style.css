@@ -180,6 +180,10 @@ Messages
     overflow: hidden;
     position: relative;
     width: 100%;
+    background-image: url("/img/pattern-rotate.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .messages .messages-content {

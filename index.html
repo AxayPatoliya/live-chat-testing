@@ -35,6 +35,7 @@
 
     firebase.database().ref("messages").on("child_removed", function(snapshot) {
         document.getElementById("message-" + snapshot.key).innerHTML = "This message has been deleted";
+
     });
 
     // var delayInMilliseconds = 10000; //10 second
